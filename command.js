@@ -8,5 +8,5 @@ const btn = document.getElementById('btn');
 
 
 btn.onclick = function() {
-    alert(text.value);
+    document.write(text.value);
 }
